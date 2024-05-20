@@ -32,7 +32,7 @@ const Hero = () => {
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
             A Web Developer based in Seoul.
           </p>
-          <a href="#about">
+          <a href="#projects">
             <MagicButton
               title="작업물 보기"
               icon={<FaLocationArrow />}
