@@ -26,7 +26,7 @@ const Hero = () => {
           </p>
 
           <TextGenerateEffect
-            words="안녕하세요👋 소통과 협업에 자신있는 개발자 채준형입니다"
+            words="안녕하세요👋 사용자를 최우선시하는 개발자 채준형입니다"
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
           />
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
@@ -34,7 +34,7 @@ const Hero = () => {
           </p>
           <a href="#about">
             <MagicButton
-              title="Show my work"
+              title="작업물 보기"
               icon={<FaLocationArrow />}
               position="right"
             />
