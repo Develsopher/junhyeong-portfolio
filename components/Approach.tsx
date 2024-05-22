@@ -8,17 +8,16 @@ const Approach = () => {
   return (
     <section className="w-full py-20">
       <h1 className="heading">
-        My <span className="text-purple">approach</span>
+        저의
+        <span className="text-purple"> 강점</span>은 이렇습니다.
       </h1>
       {/* remove bg-white dark:bg-black */}
       <div className="my-20 flex flex-col lg:flex-row items-center justify-center w-full gap-4">
         {/* add des prop */}
         <Card
-          title="Planning & Strategy"
-          icon={<AceternityIcon order="Phase 1" />}
-          des="We'll collaborate to map out your website's goals, target audience, 
-          and key functionalities. We'll discuss things like site structure, 
-          navigation, and content requirements."
+          title="탄탄한 프론트엔드 개발능력"
+          icon={<AceternityIcon order="Point 1" />}
+          des="UI&UX를 고려하여 바닐라 자바스크립트 부터 React를 활용한 개발을 능숙히 할 수 있습니다. 기술적 트렌드에 관심이 많으며 사용자에게 재미있는 경험을 줄 수 있는 인터랙티브웹에 흥미가 있습니다."
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
@@ -26,11 +25,9 @@ const Approach = () => {
           />
         </Card>
         <Card
-          title="Development & Progress Update"
-          icon={<AceternityIcon order="Phase 2" />}
-          des="Once we agree on the plan, I cue my lofi playlist and dive into
-          coding. From initial sketches to polished code, I keep you updated
-          every step of the way."
+          title="백엔드 업무 수행가능"
+          icon={<AceternityIcon order="Point 2" />}
+          des="데이터베이스 작업(SQL)과 풀스택 프레임워크 경험으로 백엔드 업무또한 수행할 수 있습니다."
         >
           <CanvasRevealEffect
             animationSpeed={3}
@@ -43,11 +40,9 @@ const Approach = () => {
           />
         </Card>
         <Card
-          title="Development & Launch"
-          icon={<AceternityIcon order="Phase 3" />}
-          des="This is where the magic happens! Based on the approved design, 
-          I'll translate everything into functional code, building your website
-          from the ground up."
+          title="서비스 런칭을 위한 전 과정 업무 경험"
+          icon={<AceternityIcon order="Point 3" />}
+          des="하나의 서비스를 런칭하기 위해 기획, 개발, 운영의 전 과정에 참여하면서 비즈니스 관점에서 업무를 이해하고 수행할 수 있습니다."
         >
           <CanvasRevealEffect
             animationSpeed={3}
@@ -113,7 +108,7 @@ const Card = ({
         </div>
         <h2
           // change text-3xl, add text-center
-          className="dark:text-white text-center text-3xl opacity-0 group-hover/canvas-card:opacity-100
+          className="dark:text-white text-center text-2xl opacity-0 group-hover/canvas-card:opacity-100
          relative z-10 text-black mt-4  font-bold group-hover/canvas-card:text-white 
          group-hover/canvas-card:-translate-y-2 transition duration-200"
         >

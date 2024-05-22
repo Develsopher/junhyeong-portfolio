@@ -48,9 +48,8 @@ export const gridItems = [
 
   {
     id: 5,
-    title:
-      "서비스 런칭을 위해 기획, 개발, 운영의 전과정에 직접 참여하였습니다.",
-    description: "3년차 개발자",
+    title: "꾸준히 성장중인 3년차 개발자입니다.",
+    description: "Web Developer",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -74,7 +73,7 @@ export const projects = [
   {
     id: 1,
     title: "Budget Tracker",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
+    des: "개인 수익과 지출을 관리할 수 있는 가계부, 리액트쿼리와 차트라이브러리를 활용하여 사용자 경험을 향상시켰습니다.",
     img: "/budget-tracker.png",
     iconLists: [
       "/next.svg",
@@ -89,7 +88,7 @@ export const projects = [
   {
     id: 2,
     title: "AI Jarvis",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
+    des: "AI 도구 제공 구독 서비스 플랫폼, AI API를 활용하고 유저별 구독관리 시스템 및 결제시스템을 도입하였습니다.",
     img: "/ai-jarvis.png",
     iconLists: [
       "/next.svg",
@@ -103,8 +102,8 @@ export const projects = [
   },
   {
     id: 3,
-    title: "Every IDE",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
+    title: "Every IDE(팀 프로젝트)",
+    des: "페어프로그래밍을 위한 IDE 및 스터디 플랫폼, 웹 토근방식의 로그인 구현과 웹 소켓 기반의 기능들을 구현하였습니다.",
     img: "/every-ide.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/vitejs.svg", "/stomp.svg"],
     link: "https://ide-frontend-six.vercel.app",
@@ -112,10 +111,16 @@ export const projects = [
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    title: "Develsopher's Portfolio",
+    des: "Framer motion과 Aceternity UI를 활용하여 사용자에게 재미있는 경험을 주는것을 목표로한 개인 포트폴리오 사이트",
+    img: "/my-portfolio.png",
+    iconLists: [
+      "/next.svg",
+      "/tail.svg",
+      "/ts.svg",
+      "/framer.svg",
+      "/three.svg",
+    ],
     link: "/ui.apple.com",
   },
 ];

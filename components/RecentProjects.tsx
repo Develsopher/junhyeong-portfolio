@@ -4,8 +4,6 @@ import { FaGithub, FaLocationArrow } from "react-icons/fa6";
 
 import { projects } from "@/data";
 import { PinContainer } from "./ui/Pin";
-import MagicButton from "./MagicButton";
-import { IoIosLogOut } from "react-icons/io";
 
 const RecentProjects = () => {
   const handleVisitSite = (link: string) => {
@@ -15,8 +13,8 @@ const RecentProjects = () => {
   return (
     <div className="py-20" id="projects">
       <h1 className="heading">
-        A small selection of{" "}
-        <span className="text-purple">recent projects</span>
+        최근 작업한
+        <span className="text-purple"> 프로젝트 리스트</span>
       </h1>
       <div className="flex flex-wrap items-center justify-center p-4 gap-16 mt-10">
         {projects.map((item) => (
@@ -50,7 +48,7 @@ const RecentProjects = () => {
               </h1>
 
               <p
-                className="lg:text-xl lg:font-normal font-light text-sm line-clamp-2"
+                className="lg:text-lg lg:font-normal font-light text-sm line-clamp-2"
                 style={{
                   color: "#BEC1DD",
                   margin: "1vh 0",
